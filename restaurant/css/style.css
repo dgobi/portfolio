@@ -1,0 +1,245 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  background: rgba(232, 244, 240, 1);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* ----------------------------NAV BAR---------------------------- */
+a {
+  text-decoration: none;
+}
+
+.navbar a {
+  color: black;
+  font-size: 120%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  background: rgba(232, 244, 240, 1);
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navLinks li {
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 220px;
+  max-height: 50px;
+  padding-top: 10px;
+}
+
+/* ----------------------------MAIN---------------------------- */
+main {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px 0 50px;
+}
+
+main section {
+  font-size: 200%;
+  width: 500px;
+  margin-right: 200px;
+}
+
+main img {
+  height: 500px;
+  vertical-align: middle;
+}
+
+main form {
+  display: flex;
+}
+
+main input {
+  background: white;
+}
+
+#searchButton {
+  margin: 0 10px;
+  padding: 10px;
+  background: rgba(245, 192, 20, 1);
+  border-radius: 10px;
+}
+
+/* ----------------------------ABOUT---------------------------- */
+#about {
+  background: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 0;
+}
+
+#about * {
+  background: white;
+}
+
+#about img {
+  height: 500px;
+  vertical-align: middle;
+  padding: 20px 0;
+}
+
+#about section {
+  margin: 0 0 50px 100px;
+}
+
+h2 {
+font-size: 180%;
+}
+
+h3 {
+  color: rgba(245, 192, 20, 1);
+}
+
+#menuButton {
+  padding: 10px;
+  background: rgba(245, 192, 20, 1);
+  border-radius: 10px;
+}
+
+/* ----------------------------MENU---------------------------- */
+#menuTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#menuTitle h2 {
+  font-size: 200%;
+}
+
+#menuPics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding: 0 5px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 5px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  min-height: 166px;
+}
+
+/* ----------------------------BOOKING---------------------------- */
+#booking,
+#booking * {
+  background: white;
+}
+
+#bookingTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+}
+
+#bookingTitle h3,
+#bookingTitle h2 {
+  margin: 10px 0;
+}
+
+#bookingTitle i {
+  font-size: 150%;
+  margin: 15px 0 10px 0;
+  color: rgb(255, 174, 0);
+}
+
+h4 {
+  margin-top: 5px;
+  color: rgb(255, 174, 0);
+  font-size: 200%;
+}
+
+#bookingLeft *,
+#bookingRight * {
+  color: black;
+}
+
+#bookingColumns {
+  display: flex;
+  justify-content: center;
+}
+
+#bookingLeft {
+  margin-right: 150px;
+}
+
+#bookingPic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#bookingPic img {
+  display: block;
+  padding-bottom: 50px;
+}
+
+/* ----------------------------TESTIMONIALS---------------------------- */
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#testimonials h2 {
+  margin-top: 5px;
+}
+
+#testimonials img {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#testimonials span {
+  font-size: 75%;
+  margin-bottom: 5px;
+}
+
+#testimonials i {
+  color: rgb(255, 174, 0);
+}
+
+#testimonials p {
+  font-style: italic;
+  width: 500px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

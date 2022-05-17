@@ -1,0 +1,254 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* ----------------------------NAV BAR---------------------------- */
+a {
+  text-decoration: none;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navLinks li {
+  padding: 0 20px;
+}
+
+.navBooking {
+  display: flex;
+  align-items: center;
+  padding-left: 0 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  max-height: 40px;
+  padding-top: 10px;
+}
+
+/* ----------------------------MAIN---------------------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/main-lady.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  color: white;
+}
+
+.titleSection {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 1000%;
+  max-width: 800px;
+}
+
+.mainTag {
+  font-size: 170%;
+  font-weight: bold;
+  /* max-width: 800px; */
+}
+
+.button {
+  display: flex;
+  align-self: flex-start;
+  background: black;
+
+}
+
+.buttonServices {
+  padding: 10px 10px;
+  color: white;
+  font-size: 110%;
+  margin: 80px 0 70px 50px;
+}
+
+.buttonCoupon {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 100px 50px;
+  max-width: 350px;
+}
+
+.couponTag {
+  font-size: 200%;
+  padding: 10px 0;
+}
+
+.buttonBooking {
+  padding: 10px 10px;
+  background: white;
+  color: black;
+  max-width: 133px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin: 50px 175px;
+}
+
+.services section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.services p,
+.services h3 {
+  text-align: center;
+}
+
+/* ----------------------------ABOUT---------------------------- */
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 50px 100px;
+}
+
+.about section {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 30px;
+}
+
+.about h2 {
+  font-size: 200%;
+  margin: 25px 0 10px 0;
+}
+
+.about img {
+  max-height: 400px;
+}
+
+.about span {
+  color: white;
+  padding: 10px;
+}
+
+/* ----------------------------STAFF---------------------------- */
+.staff {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.staff img {
+  max-width: 200px;
+}
+
+.staff section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.staff .aboutButton {
+  color: white;
+  padding: 10px;
+  width: 175px;
+  margin-top: 5px;
+} 
+
+.aboutTitle {
+  font-size: 80%;
+}
+
+/* ----------------------------DEALS---------------------------- */
+.deal {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.deal img {
+  max-height: 300px;
+}
+
+.deal section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 30px;
+  max-width: 450px;
+}
+
+.deal h2 {
+  font-size: 210%;
+  margin: 20px 0;
+}
+
+.buttonAppointment {
+  padding: 10px;
+  color: white;
+}
+
+.lookbook h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.lookbook h2:first-child{
+  margin: 100px 0 5px 0;
+}
+
+.lookbookPhotos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 5px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 5px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
